@@ -1,0 +1,6 @@
+node_modules
+.next
+.git
+.bolt
+*.html
+coolify_*.html
