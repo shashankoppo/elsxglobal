@@ -5,6 +5,11 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+    memoryBasedWorkersCount: true
+  }
 };
 
 module.exports = nextConfig;
